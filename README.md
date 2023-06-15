@@ -12,7 +12,7 @@ I'm a computer science student with a focus on Java programming. I also have exp
 ## 🌐 Socials:
 [![Discord](https://img.shields.io/badge/Discord-%237289DA.svg?logo=discord&logoColor=white)](https://discord.gg/hussein2111) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/ahmed-hussein-72b340207)
 [![Stack Overflow](https://img.shields.io/badge/-Stackoverflow-FE7A16?logo=stack-overflow&logoColor=white)](https://stackoverflow.com/users/https://stackoverflow.com/users/20770845/ahmed-hussien)
-[![Email](https://img.shields.io/badge/-Gmail-FE7A16?logo=gmail)](ahmedhgabr25@gmail.com) 
+[![Email](https://img.shields.io/badge/-Gmail-FE7A16?logo=gmail&color=lightgrey)](ahmedhgabr25@gmail.com) 
 
 
 
