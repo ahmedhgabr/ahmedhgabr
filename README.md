@@ -1,7 +1,7 @@
 # Hi there, I'm Ahmed Hussein! 👋
 
 
-# 💫 About Me:
+## 💫 About Me:
 I'm a computer science student with a focus on Java programming. I also have experience with SQL, JavaScript, HTML, and CSS. My interests include competitive programming and Android development.
 
 
