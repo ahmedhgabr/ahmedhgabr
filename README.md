@@ -1,5 +1,5 @@
 
-# [![Typing SVG](https://readme-typing-svg.demolab.com/?width=200&pause=2&lines=Hi+there,+I'm+Ahmed+Hussein!👋)](https://git.io/typing-svg)
+# [![Typing SVG](https://readme-typing-svg.demolab.com/?background=#0004fa&lines=Hi+there,+I'm+Ahmed+Hussein!👋)](https://git.io/typing-svg)
 
 ## 💫 About Me:
 I'm a computer science student with a focus on Java programming. I also have experience with SQL, JavaScript, HTML, and CSS. My interests include competitive programming and Android development.
