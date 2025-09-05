@@ -14,10 +14,11 @@
 
 # 📊 GitHub Stats:
 ![](https://github-readme-streak-stats.herokuapp.com/?user=ahmedhgabr&theme=dark&hide_border=true)<br/>
+<!-- ![WakaTime](metrics.plugin.wakatime.svg) -->
+
 <!-- ![](https://github-readme-stats.vercel.app/api?username=ahmedhgabr&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=ahmedhgabr&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact) -->
-
-[![](https://visitcount.itsvg.in/api?id=ahmedhgabr&label=Github%20Views&color=12&pretty=false)](https://visitcount.itsvg.in)
+<!-- [![](https://visitcount.itsvg.in/api?id=ahmedhgabr&label=Github%20Views&color=12&pretty=false)](https://visitcount.itsvg.in) -->
 
 
 
