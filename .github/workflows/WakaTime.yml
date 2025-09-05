@@ -1,0 +1,34 @@
+name: WakaTime
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # every day at 00:00 UTC
+  workflow_dispatch: # allow manual trigger
+
+jobs:
+  generate-metrics:
+    runs-on: ubuntu-latest
+    steps:
+      # 1. Checkout your repo
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # 2. Generate the metrics SVG
+      - name: Generate WakaTime metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.wakatime.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKATIME_KEY }}
+
+      # 3. Commit & push the updated SVG
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics.plugin.wakatime.svg
+          git commit -m "chore: update WakaTime metrics [skip ci]" || echo "No changes to commit"
+          git push
