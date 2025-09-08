@@ -31,5 +31,5 @@ jobs:
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add metrics.plugin.wakatime.svg
           git commit -m "chore: update WakaTime metrics [skip ci]" || echo "No changes to commit"
-        
-          # git push
+          git push
+          
