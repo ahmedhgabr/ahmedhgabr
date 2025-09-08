@@ -25,10 +25,11 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_KEY }}
 
       # 3. Commit & push the updated SVG
-      # - name: Commit and push if changed
-      #   run: |
-      #     git config --global user.name "github-actions[bot]"
-      #     git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-      #     git add metrics.plugin.wakatime.svg
-      #     git commit -m "chore: update WakaTime metrics [skip ci]" || echo "No changes to commit"
-      #     git push
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add metrics.plugin.wakatime.svg
+          git commit -m "chore: update WakaTime metrics [skip ci]" || echo "No changes to commit"
+        
+          # git push
